@@ -14,22 +14,22 @@ function menuFunction() {
 
 function menuMoreFunction() {
     var x = document.getElementById("menu-main-more");
-    if (x.style.opacity === "0") {
-        x.style.opacity = "1";
+    if (x.style.display === "none") {
+        x.style.display = "block";
         x.style.transition = "ease-in 0.4s";
     } else {
-        x.style.opacity = "0";
+      x.style.display = "none";
     }
 }
 
 function menuMoreFunction2() {
   var x = document.getElementById("menu-main-more2");
-  if (x.style.opacity === "0") {
-      x.style.opacity = "1";
-      x.style.transition = "ease-in 0.4s";
-  } else {
-      x.style.opacity = "0";
-  }
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.transition = "ease-in 0.4s";
+    } else {
+      x.style.display = "none";
+    }
 }
 
 // Block crtl+shift+i
