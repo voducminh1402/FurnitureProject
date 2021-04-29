@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- START HEADER -->
+    <header class="home-menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                   <nav class="nav-bar">
+                       <a href="" class="nav-bar-brand">
+                           <img src="./images/logo/logo.png" alt="brand-name" class="nav-bar-brand-logo">
+                       </a>
+                       <button type="button" class="menu-button" onclick="menuFunction()">
+                           <span class="menu-icon">
+                            <i class="fas fa-bars"></i>
+                           </span>
+                       </button>
+                       <div class="nav-bar-items align-items-center" id="menu-main">
+                            <ul class="nav-bar-main">
+                                <li class="nav-item">
+                                    <a href="home.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item-drop" onclick="menuMoreFunction()">
+                                    <a href="#" class="nav-link">Shop</a>
+                                    <i class="fas fa-sort-down" ></i>
+                                    <div class="drop-menu" id="menu-main-more">
+                                        <a href="shop-category.html">shop category</a>
+                                        <a href="product-detail.html">product details</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item-drop" onclick="menuMoreFunction2()">
+                                    <a href="#" class="nav-link">Pages</a>
+                                    <i class="fas fa-sort-down" ></i>
+                                    <div class="drop-menu" id="menu-main-more2">
+                                        <a href="shopping-cart.html">shopping cart</a>
+                                        <a href="order-infomation.html">Order information</a>
+                                        <a href="tracking.html">Tracking</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-bar-cart">
+                            <div class="cart-icon">
+                                <a class="shopping-cart-link" href="shopping-cart.html">
+                                    <i class="fas fa-cart-plus"></i>
+                                    <span class="cart-number">5</span>
+                                </a>
+                            </div>
+                        </div>
+                   </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+     <!-- START BANNER -->
+     <section class="banner" style="background-image: url(./images/banner/breadcrumb.png); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 category-banner-content" >
+                    <h3>tracking</h3>
+                    <a href="home.html">Home</a>
+                    <span>-</span>
+                    <a href="tracking.html">Shop category</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BANNER -->
+
+    <!-- START TRACKING -->
+    <section class="tracking-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 tracking-part-title">
+                    <p>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
+                    <form action="">
+                        <div class="row tracking-input">
+                            <div class="col-lg-7 col-md-12">
+                                <input class="tracking-number" type="text" placeholder="Order ID">
+                            </div>
+                        </div>
+                        <div class="row tracking-input">
+                            <div class="col-lg-7 col-md-12">
+                                <input class="tracking-number" type="text" placeholder="Your Phone Number">
+                            </div>
+                        </div>
+                        <button class="track-submit" type="submit">TRACK ORDER</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- END TRACKING -->
+    
+    <!-- START FOOTER PART -->
+    <footer class="footer-part" data-aos="fade-up"data-aos-duration="1500">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="single-footer-part">
+                            <h4>Top Products</h4>
+                            <ul>
+                                <li>
+                                    <a href="">Managed Website</a>
+                                </li>
+                                <li>
+                                    <a href="">Manage Reputation</a>
+                                </li>
+                                <li>
+                                    <a href="">Power Tools</a>
+                                </li>
+                                <li>
+                                    <a href="">Marketing Service</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="single-footer-part">
+                            <h4>Top Products</h4>
+                            <ul>
+                                <li>
+                                    <a href="">Managed Website</a>
+                                </li>
+                                <li>
+                                    <a href="">Manage Reputation</a>
+                                </li>
+                                <li>
+                                    <a href="">Power Tools</a>
+                                </li>
+                                <li>
+                                    <a href="">Marketing Service</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="single-footer-part">
+                            <h4>Top Products</h4>
+                            <ul>
+                                <li>
+                                    <a href="">Managed Website</a>
+                                </li>
+                                <li>
+                                    <a href="">Manage Reputation</a>
+                                </li>
+                                <li>
+                                    <a href="">Power Tools</a>
+                                </li>
+                                <li>
+                                    <a href="">Marketing Service</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="single-footer-part">
+                            <h4>Newsletter</h4>
+                            <p>Heaven fruitful doesn't over lesser in days. Appear creeping</p>
+                            <form class="form-footer" action="post">
+                                <input type="email" required placeholder="Email Address">
+                                <button type="submit">subcribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="footer-last col-lg-7 col-md-7">
+                        <div class="footer-developer" >
+                            <p>Copyright ©2021 All rights reserved | This template belongs to Bo-Decor</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-7">
+                        <div class="footer-social">
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fas fa-comment"></i></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:voducminh140201@gmail.com"><i class="fas fa-envelope"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- FOOTER PART END -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/owl-carousel.js"></script>
+    <script type="text/javascript" src="js/menu-button.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
