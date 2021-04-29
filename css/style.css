@@ -73,6 +73,14 @@
     transition: ease-out 0.7s;
 }
 
+#menu-main-more {
+    z-index: 1;
+}
+
+#menu-main-more2 {
+    z-index: 0;
+}
+
 .drop-menu a {
     padding-left: 20px;
     padding-top: 15px;
@@ -123,7 +131,7 @@
 
 .iamge-area img {
     vertical-align: middle;
-    width: 600px;
+    width: 300px;
 }
 
 .home-category {
