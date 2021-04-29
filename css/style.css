@@ -131,7 +131,7 @@
 
 .iamge-area img {
     vertical-align: middle;
-    width: 300px;
+    max-width: 600px;
 }
 
 .home-category {
