@@ -8,7 +8,7 @@ function menuFunction() {
       x.style.zIndex = "1000";
     } else {
       x.style.opacity = "0";
-      x.style.zIndex = "-100";
+      x.style.zIndex = "-10000";
     }
 }   
 
